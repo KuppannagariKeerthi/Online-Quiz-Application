@@ -1,0 +1,68 @@
+import java.util.*;
+import java.io.*;
+
+class Question {
+    String question, a, b, c, d;
+    char answer;
+
+    Question(String q, String a, String b, String c, String d, char ans) {
+        this.question = q;
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.d = d;
+        this.answer = ans;
+    }
+}
+
+public class QuizFromFile {
+
+    public static void main(String[] args) throws Exception {
+
+        Scanner sc = new Scanner(System.in);
+        List<Question> questions = new ArrayList<>();
+
+        BufferedReader br = new BufferedReader(new FileReader("questions.txt"));
+        String line;
+
+        while ((line = br.readLine()) != null) {
+
+            String[] parts = line.split("\\|");
+
+            questions.add(new Question(
+                    parts[0],
+                    parts[1],
+                    parts[2],
+                    parts[3],
+                    parts[4],
+                    parts[5].charAt(0)
+            ));
+        }
+
+        int score = 0;
+
+        System.out.println("------ SQL Quiz Competition ------");
+
+        for (Question q : questions) {
+
+            System.out.println("\n" + q.question);
+            System.out.println("A. " + q.a);
+            System.out.println("B. " + q.b);
+            System.out.println("C. " + q.c);
+            System.out.println("D. " + q.d);
+
+            System.out.print("Enter Answer (A/B/C/D): ");
+            char ans = sc.next().toUpperCase().charAt(0);
+
+            if (ans == q.answer) {
+                System.out.println("Correct Answer");
+                score++;
+            } else {
+                System.out.println("Wrong Answer");
+            }
+        }
+
+        System.out.println("\nQuiz Finished");
+        System.out.println("Your Score: " + score + "/" + questions.size());
+    }
+}
