@@ -72,4 +72,6 @@ Correct Answer
 
 ---
 
+## Project Output
 
+![Output](screenshots/output.png)
