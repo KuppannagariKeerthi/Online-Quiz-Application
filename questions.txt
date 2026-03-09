@@ -1,0 +1,10 @@
+Which SQL command retrieves data?|INSERT|SELECT|UPDATE|DELETE|B
+Which clause filters records?|WHERE|GROUP BY|ORDER BY|HAVING|A
+Which command removes a table?|DROP|DELETE|REMOVE|CLEAR|A
+Which keyword sorts results?|ORDER BY|GROUP BY|WHERE|SELECT|A
+Which command inserts data into table?|INSERT|ADD|PUT|CREATE|A
+Which command updates existing records?|UPDATE|CHANGE|MODIFY|SET|A
+Which command deletes records from table?|DELETE|REMOVE|DROP|CLEAR|A
+Which constraint prevents duplicate values?|UNIQUE|PRIMARY KEY|CHECK|DEFAULT|B
+Which clause groups rows?|GROUP BY|ORDER BY|WHERE|HAVING|A
+Which keyword limits number of results?|LIMIT|TOP|MAX|MIN|A
