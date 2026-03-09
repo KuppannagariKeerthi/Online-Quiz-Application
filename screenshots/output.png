@@ -1,0 +1,84 @@
+------ SQL Quiz Competition ------
+
+Which SQL command retrieves data?
+A. INSERT
+B. SELECT
+C. UPDATE
+D. DELETE
+Enter Answer (A/B/C/D): a
+Wrong Answer
+
+Which clause filters records?
+A. WHERE
+B. GROUP BY
+C. ORDER BY
+D. HAVING
+Enter Answer (A/B/C/D): a
+Correct Answer
+
+Which command removes a table?
+A. DROP
+B. DELETE
+C. REMOVE
+D. CLEAR
+Enter Answer (A/B/C/D): b
+Wrong Answer
+
+Which keyword sorts results?
+A. ORDER BY
+B. GROUP BY
+C. WHERE
+D. SELECT
+Enter Answer (A/B/C/D): b
+Wrong Answer
+
+Which command inserts data into table?
+A. INSERT
+B. ADD
+C. PUT
+D. CREATE
+Enter Answer (A/B/C/D): a
+Correct Answer
+
+Which command updates existing records?
+A. UPDATE
+B. CHANGE
+C. MODIFY
+D. SET
+Enter Answer (A/B/C/D): c
+Wrong Answer
+
+Which command deletes records from table?
+A. DELETE
+B. REMOVE
+C. DROP
+D. CLEAR
+Enter Answer (A/B/C/D): d
+Wrong Answer
+
+Which constraint prevents duplicate values?
+A. UNIQUE
+B. PRIMARY KEY
+C. CHECK
+D. DEFAULT
+Enter Answer (A/B/C/D): a
+Wrong Answer
+
+Which clause groups rows?
+A. GROUP BY
+B. ORDER BY
+C. WHERE
+D. HAVING
+Enter Answer (A/B/C/D): c
+Wrong Answer
+
+Which keyword limits number of results?
+A. LIMIT
+B. TOP
+C. MAX
+D. MIN
+Enter Answer (A/B/C/D): b
+Wrong Answer
+
+Quiz Finished
+Your Score: 2/10
